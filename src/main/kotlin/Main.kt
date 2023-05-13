@@ -10,6 +10,9 @@ fun main() {
     println("자리 배치를 입력해 주세요.(입력양식 : 가로 세로)")
     var studentI: Int = scanner.nextInt()
     var studentJ: Int = scanner.nextInt()
+
+
+    student.printSeat(studentI, studentJ, studentNumber);
 }
 
 
@@ -23,6 +26,16 @@ public class student
                 seat.set(num, 0)
             }
         }
-
+        fun printSeat(i: Int, j: Int, num: Int)
+        {
+            var counter: Int = 1;
+            for (j in 1 .. j)
+            {
+                for (i in 1 .. i) {
+                    print("${seat[counter++]}\t");
+                }
+                println()
+            }
+        }
     }
 }
