@@ -1,6 +1,7 @@
 import java.util.*
 
 var seat: Array<Int> = Array(100, {0})
+var temp: Array<Int> = Array(100, {0})
 
 fun main() {
     val scanner = Scanner(System.`in`)
@@ -11,6 +12,7 @@ fun main() {
     var studentI: Int = scanner.nextInt()
     var studentJ: Int = scanner.nextInt()
 
+    student.setSeats(studentNumber)
 
     student.printSeat(studentI, studentJ, studentNumber);
 }
@@ -19,14 +21,39 @@ class student
 {
     companion object
     {
+        fun setSeats(num: Int)
+        {
+
+            val range = (1 .. num);
+            for (n in range)
+            {
+                setSeat(num, n)
+            }
+        }
+
+        fun setSeat(num: Int, n: Int)
+        {
+            var t: Int = 0
+            val range = 1 .. num
+            t = range.random()
+            if(temp[t] != 1)
+            {
+                temp[t] = 1
+                seat[n-1] = t
+            }else
+            {
+                setSeat(num, n)
+            }
+        }
+
         fun printSeat(i: Int, j: Int, num: Int)
         {
-            var counter: Int = 1;
+            var counter: Int = 0;
             for (j in 1 .. j)
             {
                 for (i in 1 .. i) {
                     print("${seat[counter++]}\t")
-                    if(counter > num)
+                    if(counter == num)
                     {
                         break
                     }
