@@ -15,8 +15,7 @@ fun main() {
     student.printSeat(studentI, studentJ, studentNumber);
 }
 
-
-public class student
+class student
 {
     companion object
     {
@@ -32,7 +31,11 @@ public class student
             for (j in 1 .. j)
             {
                 for (i in 1 .. i) {
-                    print("${seat[counter++]}\t");
+                    print("${seat[counter++]}\t")
+                    if(counter > num)
+                    {
+                        break
+                    }
                 }
                 println()
             }
