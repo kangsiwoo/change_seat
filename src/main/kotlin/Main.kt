@@ -19,12 +19,6 @@ class student
 {
     companion object
     {
-        fun reset(num: Int) {
-            for (num in 0 .. num-1)
-            {
-                seat.set(num, 0)
-            }
-        }
         fun printSeat(i: Int, j: Int, num: Int)
         {
             var counter: Int = 1;
