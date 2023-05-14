@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d93c29f3-fc58-4b09-a7cc-85039a3d327c" name="Changes" comment="remove : array reset">
+    <list default="true" id="d93c29f3-fc58-4b09-a7cc-85039a3d327c" name="Changes" comment="Finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684010682857</updated>
-      <workItem from="1684010684172" duration="6792000" />
+      <workItem from="1684010684172" duration="8031000" />
     </task>
     <task id="LOCAL-00001" summary="let's go Kotlin">
       <created>1684010792954</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684084170650</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish">
+      <created>1684085615219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085615219</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +129,7 @@
     <MESSAGE value="add : print seats" />
     <MESSAGE value="add : student count" />
     <MESSAGE value="remove : array reset" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove : array reset" />
+    <MESSAGE value="Finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish" />
   </component>
 </project>
